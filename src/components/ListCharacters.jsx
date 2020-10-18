@@ -6,8 +6,10 @@ import PaginationListCharacters from "./PaginationListCharacters";
 
 
 const ListCharacters = ({ characters, nextPage, prevoiousPage }) => {
+
     return (
         <>
+            <button type="button" className="btn btn-outline-success">Episodes</button>
             <div className="row row-cols-4 mt-5">
                 {characters.map(character => {
                     return (
