@@ -7,7 +7,7 @@ import Episodes from './pages/Episodes';
 
 const Routes = () => {
     return (
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
             <Switch>
                 <Route exact path="/" component={CharactersContainer} />
                 <Route exact path="/Episodes" component={Episodes} />
