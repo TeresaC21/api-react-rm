@@ -12,9 +12,22 @@
 
 we will be able to see by some elements in this web that I mention here.
 
+## Component Search
+
 ![Search](https://github.com/TeresaC21/api-react-rm/blob/master/src/img/Search.png)
+***
+
+## Show cards in the list component
+
 ![Card](https://github.com/TeresaC21/api-react-rm/blob/master/src/img/cards.png)
+***
+
+## Component pagination
+
 ![Pagination](https://github.com/TeresaC21/api-react-rm/blob/master/src/img/home-list.png)
+
+## Home
+
 ![Home List](https://github.com/TeresaC21/api-react-rm/blob/master/src/img/pagination.png)
 
 ## In the project directory, you can run":"
