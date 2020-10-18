@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 
 // Components
 import CharactersContainer from './components/CharactersContainer';
@@ -7,10 +7,12 @@ import Episodes from './pages/Episodes';
 
 const Routes = () => {
     return (
-        <Switch>
-            <Route exact path="/" component={CharactersContainer} />
-            <Route exact path="/Episodes" component={Episodes} />
-        </Switch>
+        <Router>
+            <Switch>
+                <Route exact path="/" component={CharactersContainer} />
+                <Route exact path="/Episodes" component={Episodes} />
+            </Switch>
+        </Router>
     );
 }
 
