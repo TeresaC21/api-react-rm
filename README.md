@@ -8,7 +8,7 @@
 - HashRouter in the file Router.jsx
 - Package.json add three lines, homepage first line, we will see scripts for deploy and predeploy.
 
-## This project is a practice to consume an API [API IN THIS PROJECT](https://rickandmortyapi.com/documentation/)
+## This project is a practice to consume an API [This project API](https://rickandmortyapi.com/documentation/)
 
 we will be able to see by some elements in this web that I mention here.
 
